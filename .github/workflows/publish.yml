@@ -19,6 +19,6 @@ jobs:
       - uses: docker/build-push-action@v7
         with:
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/und3rgr0undpentium/petclinic:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
